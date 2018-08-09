@@ -1,0 +1,40 @@
+// Objects exercises
+
+
+var someObject = {}; // enter
+undefined
+someObject._name = "Gerard"; // enter
+"Gerard"
+someObject // enter
+{_name: "Gerard"}
+someObject.age = 32; // enter
+32
+someObject // enter
+{_name: "Gerard", age: 32}
+var prop = "color" // enter
+undefined
+someObject[prop] = "orange"; // enter
+"orange"
+someObject // enter
+{_name: "Gerard", age: 32, color: "orange"}
+
+
+// Extra exercise for Objects
+
+
+var someObject = {
+    friends: [
+        {name: "Malfoy"},
+        {name: "Crabbe"},
+        {name: "Goyle"}
+        ],
+    color: "baby blue",
+    isEvill: true
+}; // enter
+undefined
+someObject // enter
+{friends: Array(3), color: "baby blue", isEvill: true}
+someObject.friends[0] = "Tommy" // enter
+"Tommy"
+someObject // enter
+{friends: Array(3), color: "baby blue", isEvill: true}
